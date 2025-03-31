@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: bisque;
+}
+
+.heading{
+    height: 17vmax;
+    width: 100%;
+    font-size: 4vmax;
+    background-color: rgb(201, 158, 241);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: rgb(249, 200, 137);
+}
+
+.buttons{
+    width: 100%;
+    gap: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vmin;
+}
+
+.choice{
+    height: 30vmin;
+    width: 30vmin;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: rgb(201, 158, 241);
+}
+
+img{
+    height: 10vmax;
+    width: 10vmax;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 10vmin;
+    font-size: 5vmin;
+}
+#user,#Computer{
+    font-size: 10vmin;
+}
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7vmin;
+}
+#msg{
+    background-color: rgb(201, 158, 241);
+    padding: 3vmin;
+    font-size: 2rem;
+    border-radius:20px;
+    color: rgb(249, 200, 137);
+}
+
+.resetbutton{
+    height: 50px;
+    width: 80px;
+    background-color: rgb(201, 158, 241);
+    color:  rgb(249, 200, 137);
+    border-radius: 20px;
+    font-size: large;
+    border: none;
+}
+
+.resetbutton:active{
+    background-color: rgb(199, 144, 250);
+    color: rgb(249, 207, 152);
+}
+
+.maker{
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    font: italic;
+    color: rgb(247, 117, 227);
+}
