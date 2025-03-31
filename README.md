@@ -1,5 +1,5 @@
 # Rock Paper Scissors Game
-<a  href="https://shoumyo.github.io/Rock-Paper-Scissors-Game">Click here to play</a>
+<a  href="https://shoumyo.github.io/Rock-Paper-Scissors-Game/">Click here to play</a>
 <br>
 <h3><i>Let's check your luck</i></h3>
 <br>
