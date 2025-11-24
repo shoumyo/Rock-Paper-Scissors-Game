@@ -1,23 +1,41 @@
-# Rock Paper Scissors Game
-<a  href="https://shoumyo.github.io/Rock-Paper-Scissors-Game/">Click here to play</a>
-<br>
-<h3><i>Let's check your luck</i></h3>
-<br>
-<br>
-It is a game which can you play with alone.This game can play at any age.It is also a fun game.It can play two players.One is the computer and other is you.
-<br>
+<div class="game-container">
+  <h1>Rock Paper Scissors</h1>
+  
+  <p>
+    <a href="https://shoumyo.github.io/Rock-Paper-Scissors-Game/" class="play-link">
+      <strong>Click here to start playing</strong>
+    </a>
+  </p>
 
-<h2>Rules:</h2>
-In the game you have to click any of three icons.If you win your score will increase and if the computer wins it's score will increase.If the game becomes draw none score will increase.You can play it unlimited times.
-You can also reset the game by clicking reset button.
-<br>
-<br>
-<h2>Winning Conditions:</h2>
-If the computer and the user picks the same icon the game is deaw.
-<br>
-Ohterwise,
-<ul>
-  <li>Rock beats Scissors</li>
-  <li>Scissors beats Paper</li>
-  <li>Paper beats Rock</li>
-</ul>
+  <h3><i>Let's test your luck</i></h3>
+  
+  <p>
+    Enjoy a fun, single-player version of the classic Rock Paper Scissors game. 
+    Suitable for players of all ages, this game pits you against the computer 
+    in a battle of chance.
+  </p>
+
+  <hr>
+
+  <h2>Rules of the Game</h2>
+  <p>
+    To play, simply click on one of the three icons to make your selection. 
+    You can play as many rounds as you like.
+  </p>
+  <ul>
+    <li><b>Scoring:</b> If you win, your score increases. If the computer wins, its score increases.</li>
+    <li><b>Draws:</b> If the round is a tie, neither score changes.</li>
+    <li><b>Reset:</b> Use the reset button to clear the scores and start over.</li>
+  </ul>
+
+  <h2>Winning Conditions</h2>
+  <p>
+    If both you and the computer pick the same icon, the round results in a <strong>draw</strong>.
+    Otherwise, the winner is decided by standard rules:
+  </p>
+  <ul>
+    <li><strong>Rock</strong> beats Scissors</li>
+    <li><strong>Scissors</strong> beats Paper</li>
+    <li><strong>Paper</strong> beats Rock</li>
+  </ul>
+</div>
